@@ -9,7 +9,7 @@ const Carros = () => {
       .then((car) => car.json())
       .then((json) => setCarros(json));
   }, []);
-  if (carros === null) return <p>Sem resultado</p>;
+  if (carros === null) return <p className="loading"></p>;
   return (
     <section className={styles.carros + " animeLeft"}>
       {carros.map((carro) => (
