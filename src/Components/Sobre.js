@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./Sobre.module.css";
+import foto from "../img/perfil6.jpeg";
 const Sobre = () => {
   return (
-    <section clasName={`${styles.sobre} animeLeft`}>
-      <img alt="Carro sobre" />
+    <section className={`${styles.sobre} animeLeft`}>
+      <img className={styles.foto} src={foto} alt="Carro sobre" />
       <div>
         <h1> Entre em contacto</h1>
         <ul className={styles.dados}>

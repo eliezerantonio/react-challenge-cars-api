@@ -23,3 +23,7 @@
   background: #ddd;
   margin-right: 10px;
 }
+
+.foto {
+  border-radius: unset;
+}
