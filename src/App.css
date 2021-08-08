@@ -49,7 +49,7 @@ h1 {
   flex-direction: column;
   max-width: 40rem;
   margin: 0 auto;
-  min-height: cal(100vg+10rem);
+  min-height: cal(100vh+10rem);
 }
 
 .content {
