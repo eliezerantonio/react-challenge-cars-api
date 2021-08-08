@@ -35,7 +35,7 @@ h1 {
   margin-top: 100px;
   border: 10px solid #ccc;
   border-right-color: transparent;
-  animation: loading 1s infinite;
+  animation: loading 0.9s infinite;
 }
 
 @keyframes loading {
