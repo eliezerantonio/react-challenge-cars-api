@@ -1,15 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import styles from "./header.module.css";
+import styles from "./Header.module.css";
+
 const Header = () => {
   return (
-    <nav>
+    <nav className={styles.header}>
       <ul>
         <li>
           <NavLink
             activeClassName={styles.active}
             className={styles.link}
             to="/"
+            end
           >
             Carros
           </NavLink>
@@ -18,9 +20,9 @@ const Header = () => {
           <NavLink
             activeClassName={styles.active}
             className={styles.link}
-            to="sobre"
+            to="contacto"
           >
-            Sobre
+            Contacto
           </NavLink>
         </li>
       </ul>

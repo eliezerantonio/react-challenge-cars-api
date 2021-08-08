@@ -5,6 +5,7 @@ import Sobre from "./Components/Sobre";
 import "./App.css";
 import Carro from "./Components/Carro";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
           </Routes>
         </div>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 };
