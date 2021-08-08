@@ -20,7 +20,7 @@ const Header = () => {
           <NavLink
             activeClassName={styles.active}
             className={styles.link}
-            to="contacto"
+            to="sobre"
           >
             Contacto
           </NavLink>
