@@ -4,10 +4,12 @@ import Carros from "./Components/Carros";
 import Sobre from "./Components/Sobre";
 import "./App.css";
 import Carro from "./Components/Carro";
+import Header from "./Components/Header";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
+        <Header />
         <div className="content">
           <Routes>
             <Route path="/" element={<Carros />}></Route>
