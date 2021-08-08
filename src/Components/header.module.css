@@ -1,0 +1,28 @@
+.header {
+  margin-bottom: 2rem; /* 1rem siginfica 16px */
+}
+
+.header ul {
+  display: flex; /* coloca um item do lado do outro*/
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.header ul li {
+  margin-right: 1rem;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background: #eee;
+  padding: 0.5em 1rem;
+  border-radius: 4px;
+}
+.active,
+.link:hover {
+  background: #ddd;
+}
