@@ -8,7 +8,7 @@ const Sobre = () => {
       <div>
         <h1> Entre em contacto</h1>
         <ul className={styles.dados}>
-          <li>eliezer@origamid.com</li>
+          <li>eliezer@gmail.com</li>
           <li>924033375 </li>
           <li>Bairro Cdt Cow-Boy </li>
         </ul>

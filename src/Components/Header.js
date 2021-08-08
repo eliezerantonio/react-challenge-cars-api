@@ -20,11 +20,29 @@ const Header = () => {
           <NavLink
             activeClassName={styles.active}
             className={styles.link}
+            to="/"
+          >
+            Classicos
+          </NavLink>
+        </li>{" "}
+        <li>
+          <NavLink
+            activeClassName={styles.active}
+            className={styles.link}
+            to="/"
+          >
+            Esportivos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            activeClassName={styles.active}
+            className={styles.link}
             to="sobre"
           >
             Contacto
           </NavLink>
-        </li>
+        </li>{" "}
       </ul>
     </nav>
   );
